@@ -1,0 +1,311 @@
+.logo {
+    width: 90px;
+    margin: 5px;
+}
+
+.bg-theme {
+    padding: 0px !important;
+    background-color: #123f57;
+}
+
+.logo-head {
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: emoji;
+}
+
+.fa-brands,
+.fa {
+    font-weight: 400;
+    border: 1px solid gray;
+    padding: 10px;
+    color: #0056f3;
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.fa-brands,
+.fa-hover {
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+
+.fa-brands:hover {
+    background: #d60e96;
+    color: #fff;
+}
+
+.bg-inf {
+    display: block;
+}
+
+.ico-icon {
+    margin-top: 30px;
+    padding: absolute;
+    right: 0;
+    color: white;
+}
+
+
+/* .ico-icon.fa-brands { */
+
+
+/*     
+    border: 1px solid gray;
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    padding: 100%;
+    color: #fff
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 120px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #ffb516;
+}
+
+@media only screen and (max-width:768px) {
+    .fa-brands,
+    .fa {
+        border: 1px solid gray;
+        width: 52px;
+        height: 52px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 13px !important;
+        margin-right: 00px !important;
+    }
+    .logo {
+        margin-top: 40px !important;
+        /* width: 60px !important;
+            height: 60px !important; */
+    }
+    .log img {
+        width: 20px;
+        height: 80px;
+        padding: 100%;
+        right: 10PX;
+        content: icon;
+    }
+}
+
+.outer-right {
+    /* text-align: center; */
+    background-image: url(../images/h.jpg);
+    background-color: #13305d;
+}
+
+.ME2 {
+    text-align: center;
+    color: rgb(255, 165, 47) !important;
+    position: absolute;
+    margin-right: 20px !important;
+}
+
+*/ .img-fluid {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.me1 {
+    text-align: center;
+    color: #d60e96;
+}
+
+
+/* .mrq {
+    text-align: center;
+    padding: 85px 0px 122px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/k.jpg);
+    #why-choose {
+        width: 100%;
+        text-align: center; */
+
+#why-choose h1 {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.footer {
+    background-color: #123f57;
+    text-align: center;
+    color: white;
+}
+
+.newfooter {
+    background-color: #123f57;
+}
+
+
+/* Sticky */
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.stick+.content {
+    margin-top: 30px;
+}
+
+.heading-about {
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    text-align: justify;
+}
+
+.img-about-style {
+    border: 20px solid #00c0d0;
+    border-radius: 26px;
+}
+
+
+/* mission text css */
+
+.mission-text {
+    background-color: #004456;
+    color: white;
+    padding: 14px;
+    text-align: justify;
+}
+
+.principle-mng {
+    margin-top: 50px;
+    border: 8px solid gray;
+    border-radius: 20px;
+}
+
+
+/* ffffffff */
+
+.heading-ff {
+    padding: 5px;
+    text-align: center;
+    color: #2fb194;
+    font-weight: bold;
+}
+
+.rdx {
+    text-align: justify;
+}
+
+
+/* teacher img */
+
+.teachers-mmg {
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 100%;
+    position: center;
+}
+
+.ff-mng {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+    border-color: var(--light);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .form-control {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.text-white {
+    text-align: center;
+}
+
+.fonder-name {
+    text-align: center;
+}
+
+.rdx-me {
+    text-align: justify;
+}
